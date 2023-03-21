@@ -1,0 +1,9 @@
+comunica-sparql-link-traversal  \
+  "SELECT DISTINCT ?person WHERE {
+    <https://solid.interactions.ics.unisg.ch/philipp/profile/card#me> (foaf:knows)+ ?person.
+  }"
+
+  // returns all people that are known by me or by someone I know
+  // i used distinct to avoid duplicates
+  // the + means that the path can be traversed multiple times
+  // foaf:knows is the predicate that is used to traverse the graph

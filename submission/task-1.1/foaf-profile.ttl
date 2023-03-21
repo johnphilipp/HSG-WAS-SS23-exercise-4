@@ -1,0 +1,19 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+
+<>
+    a foaf:PersonalProfileDocument;
+    foaf:maker <https://solid.interactions.ics.unisg.ch/philipp/profile/card#me>;
+    foaf:primaryTopic <https://solid.interactions.ics.unisg.ch/philipp/profile/card#me>.
+
+<https://solid.interactions.ics.unisg.ch/philipp/profile/card#me>
+    
+    solid:oidcIssuer <https://solid.interactions.ics.unisg.ch/>;
+    a foaf:Person;
+    foaf:knows <https://solid.interactions.ics.unisg.ch/AnnaLuese/profile/card#me>;
+    foaf:knows <https://solid.interactions.ics.unisg.ch/atilla/profile/card#me>;
+    foaf:knows <https://solid.interactions.ics.unisg.ch/florence/profile/card#me>;
+    foaf:knows <https://solid.interactions.ics.unisg.ch/LukaBiceps/profile/card#me>;
+    foaf:knows <https://solid.interactions.ics.unisg.ch/danai/profile/card#me>;
+    foaf:name "Philipp John";
+    foaf:mbox <mailto:philipp.john@student.unisg.ch>.

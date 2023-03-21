@@ -1,0 +1,9 @@
+comunica-sparql https://solid.interactions.ics.unisg.ch/philipp/profile/card#me \
+    "SELECT ?personB WHERE { 
+        ?personA foaf:knows ?personB
+    }" 
+    # -l debug
+
+  // the query selects all people that are known by the personA
+  // the query is executed against the data of the personA
+  // with foaf:knows the predicate is defined that is used to select the personB
